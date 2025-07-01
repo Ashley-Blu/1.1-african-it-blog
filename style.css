@@ -1,0 +1,53 @@
+
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+article{
+background: #98b3db
+}
+
+h1:hover{
+
+	color: #e0e6e9;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.challenges li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    width: 70px;
+    background-color: red
+}
+
+footer {
+  background: #416696;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+a{
+    color: white;
+}
+
+.graph{
+    width: 400px
+}
+
+img:hover{
+    width: 500px;
+}
+
+
