@@ -1,3 +1,3 @@
 function showMessage(){
-    alert("For more information, send me an email!");
+    alert("EMAIL HAS BEEN SEND");
 }
