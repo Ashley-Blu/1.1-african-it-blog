@@ -12,9 +12,12 @@
 
 <body>
     <article>
-        <h1>AFRICAN IT PROFESSIONALS</h1><br>
+        <header>
+            <h1>AFRICAN IT PROFESSIONALS</h1><br>
         <p id="p1"><i>Date: 02/07/2025 | Author: Matsekoleng Ashley</i></p>
 
+        </header>
+        
 
 
         <section id="about" class="about">
@@ -22,28 +25,29 @@
                 from HTML/CSS coder to Front-End development and responsibilities.<br>
                 It is what they do and know, but even as professionals
                 they do face challenges from time to time
-            </p><br>
+            </p>
+
+            
             <h3>Challenges Faced By African IT Professionals</h3>
 
-            <table>
-                <tr>
-                    <td>
-                        <p>Some of those issues or rather challenges, include:</p><br>
-                        <ul class="challenges">
-                            <li>Skill gap</li>
-                            <li>Cloud computing</li>
-                            <li>Cybersecurity</li>
-                            <li>Digital transformation, etc</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <p><img src="media/graph.jpg" alt="Graph" class="graph" /></p>
-                    </td>
-                </tr>
-            </table>
-            <p>
+            <div class="challenge-section">
+                <div class="text">
+                    <p>
+                        Some of those challenges include:
+                    </p>
+                    <ul>
+                        <li>Skill gap</li>
+                        <li>Cloud computing</li>
+                        <li>Cybersecurity</li>
+                        <li>Digital Tranformation</li>
+                    </ul>
+                </div>
+            <div class="image">
+          <img src="media/graph.jpg" alt="Graph" class="graph" />
+        </div>
+            </div>
             <h4>Skill gap</h4><br>
-            <p>
+            
                 The difference between the skills that IT professionals<br>
                 have and those of people who are seeking for a job that<br>
                 they need to acquire in order to be in line the required is called a <i>Skill gap</i>.<br>
@@ -70,30 +74,27 @@
                     traditional ways of doing it.
                 </i>
             </p>
-            </p>
+            
         </section>
 
-        <table>
-            <tr>
-                <td>More or less, these challenges are faced by well trained professional IT specialists around Africa.
-                <td>
-                    <p><img src="media/quote.png" alt="Graph" class="graph" /></p>
-                </td>
-                <button onclick="showMessage()">more...</button>
-
-                </td>
-
-            </tr>
-        </table>
+        <section class="quote-section">
+      <div class="quote-text">
+        <p>More or less, these challenges are faced even by well-trained IT professionals across Africa.</p>
+        <button onclick="showMessage()">More...</button>
+      </div>
+      <div class="quote-img">
+        <img src="media/quote.png" alt="Quote" class="graph" />
+      </div>
+    </section>
 
         <section id="contact" class="contact">
              <h2>Contact Me</h2>
             <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
-                <div>
+                <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required />
                 </div>
-                <div>
+                <div class="form-group">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required />
                 </div>

@@ -3,10 +3,23 @@
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background: skyblue;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px
 }
 
 article{
-background: #98b3db
+background: #98b3db;
+border-radius:10px;
+box-shadow: 0 0 20px black;
+padding: 30px;
+max-width: 1100px;
+margin: auto;
 }
 
 h1:hover{
@@ -16,10 +29,22 @@ h1:hover{
 
 h1 {
     text-align: center;
-    font-weight: bolder;
     font-size: 50px;
+    color: #555;
+    margin-bottom: 20px;
 }
 
+h3,h4,h5{
+    color: #2a4d69;
+    margin-top: 20px;
+}
+
+#p1{
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 20px;
+}
 .challenges li:hover{
     color: white;
     cursor: pointer;
@@ -49,5 +74,3 @@ a{
 img:hover{
     width: 500px;
 }
-
-
