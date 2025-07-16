@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style2.css'>
+</head>
+
+<body>
+    <header>
+        <h1> Compare Windows, Linux, Mac Operating Systems</h1>
+    </header>
+    <main>
+        <div class="partone">
+            <h2>
+                Files and Directories, Naming Covertion, and Fie Allocation(FAT)
+            </h2>
+            <h3>Windows</h3>
+            <h5>Directory Structure</h5>
+            <p>
+                Windows organizes files using a drive-letter system. The most common example is c: for the main system
+                drive.The file path uses backslashes (\) as separators, as seen in a typical path like
+                c:\users\mlab\Documents.
+            </p>
+            <h5>Naming Convertion</h5>
+            <p>
+                File names are not case sensitive. This means that file names like documents.txt and Documents.txt are
+                considered the same, therefore they cannot exist in the same folder. The only allowed characters when
+                naming a file are the null character and the forward slash (/)
+            </p>
+            <h5>File Systems</h5>
+            <p>
+                The file system that is primarily used in Windows is NTFS or, to a lesser degree, the Resilient File
+                System (Reefs), which Microsoft introduced in 2012 promising to support greater availability, resiliency
+                and scalability. Although the FAT system has been superseded on most Windows computers, current Windows
+                editions still
+                support FAT
+            </p>
+
+            <h3>Linux</h3>
+            <h5>Directory Structure</h5>
+            <p>
+                Linux OS is based on UNIX and shares a similar hierarchical file system structure with MacOS. Everything
+                starts from a single root directory, denoted by a forward slash (/). All files, directories, and even
+                connected devices descend from this root. File paths use forward
+                slashes (/) as separators, for example: /home/user/documents
+            </p>
+            <h5>Naming Convertion</h5>
+            <p>
+                The file system is case-sensitive. Document.txt and document.txt are considered the same. The only
+                allowed characters when naming a file are the null character and the forward slash (/)
+            </p>
+            <h5>File Systems</h5>
+            <p>
+                The most common file system is ext4 (Fourth Extended File System). Linux still support FAT
+            </p>
+
+            <h3>MacOS</h3>
+            <h5>Directory Structure</h5>
+            <p>
+                MacOS is based on UNIX and shares a similar hierarchical file system structure with Linux. Everything
+                starts from a single root directory, denoted by a forward slash (/). All files, directories, and even
+                connected devices descend from this root. File paths use forward
+                slashes (/) as separators, for example: /home/user/documents
+            </p>
+            <h5>Naming Convertion</h5>
+            <p>
+                By default, the file system (APFS) is case-insensitive but case-preserving, similar to Windows. This
+                means it recognizes the difference in capitalization but treats files with the same name and different
+                cases as identical. However, it is possible to format a drive to be case-sensitive.
+            </p>
+            <h5>File Systems</h5>
+            <p>
+                The current standard is the Apple File System (APFS).MacOS still support FAT just like the other two
+                operating systems.
+            </p>
+        </div>
+
+        <div class="parttwo">
+            <h1>
+                Executable File Extensions
+            </h1>
+            <h3>Windows</h3>
+            <h5>Executable File Types</h5>
+            <p>
+                The most common executable file has the .exe extension. Windows also uses .dll (Dynamic Link Library)
+                files, which are loaded at runtime. The underlying format for these is called Portable Executable (PE).
+            </p>
+            <h5>Script Execution</h5>
+            <p>
+                Scripting can be done through Batch files (.bat), Command files (.cmd), or PowerShell scripts (.ps1).
+                The Command Prompt (cmd.exe) is a traditional command-line interpreter, while PowerShell is a more
+                advanced shell and scripting language built on the .NET framework, offering more power and flexibility
+                for system administration.
+            </p>
+
+            <h3>MacoS & Linux</h3>
+            <h5>Executable File Types</h5>
+            <p>
+                These UNIX-based systems do not rely on file extensions to identify executables. Instead, they use a
+                file permission flag that marks a file as executable. While an executable file might not have an
+                extension, common formats include ELF (Executable and
+                Linkable Format) for Linux and Mach-O for macOS. Callable shared objects on these systems often use the
+                .so extension.
+            </p>
+            <h5>Script Execution</h5>
+            <p>
+                Both systems use shell scripts to automate tasks. These are text files containing UNIX commands. On
+                macOS, the Terminal app provides access to the shell, which is commonly Zsh or Bash. On Linux, the Bash
+                (Bourne-Again Shell) is a widely used default. To be executed, a script file typically needs to be
+                marked as executable using the chmod command.Shell scripts are often identified with a .sh extension and
+                begin with a "shebang" (#!) that specifies the interpreter to be used, such as #!/bin/bash.
+            </p>
+        </div>
+
+    </main>
+</body>
+
+</html>
