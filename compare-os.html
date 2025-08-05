@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Compare OS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='os-style.css'>
+</head>
+
+<body>
+
+     <h1> Compare Windows, Linux, Mac Operating Systems</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Files and Directories, Naming Covertion, and Fie Allocation(FAT)</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Windows</th>
+                <th>Linux</th>
+                <th>MacOS</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Directory Structure</th>
+                <td>Uses backslashes (\)<br>Example: C:\Users\Mlab\Documents</td>
+                <td>UNIX-based<br>Starts from root (/)<br>Example: /home/user/documents</td>
+                <td>UNIX-based<br>Starts from root (/)<br>Example: /Users/user/Documents</td>
+            </tr>
+            <tr>
+                <th>Naming Convention</th>
+                <td>Not case sensitive<br>Allows forward slash (/) in names</td>
+                <td>Case-sensitive<br>Null and forward slash (/) not allowed</td>
+                <td>Case-insensitive but case-preserving<br>Similar to Windows</td>
+            </tr>
+            <tr>
+                <th>File Systems</th>
+                <td>NTFS (New Technology File System)<br>Supports FAT</td>
+                <td>ext4 (Fourth Extended File System)</td>
+                <td>APFS (Apple File System)<br>Supports FAT</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Executable File Extensions</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Windows</th>
+                <th>MacoS & Linux</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Executable File Types</th>
+                <td>.exe extension </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <main class="container">
+        <section class="parttwo">
+            <h1>
+                
+            </h1>
+            <h3></h3>
+            <h5></h5>
+            <ul>
+                <li>Most common executable file has the </li>
+                <li>Uses .dll (Dynamic Link Library) files.</li>
+                <li>Underlying format for these is called Portable Executable (PE).</li>
+            </ul>
+
+            <h5>Script Execution</h5>
+            <ul>
+                <li>Scripting can be done through Batch files (.bat), Command files (.cmd), or PowerShell scripts(.ps1).
+                </li>
+                <li>The Command Prompt (cmd.exe) is a traditional command-line interpreter.</li>
+                <li>PowerShell is a more advanced shell and scripting language built on the .NET framework</li>
+                <li>PowerShell offers more power and flexibility for system administration.</li>
+            </ul>
+
+            <h3></h3>
+            <h5>Executable File Types</h5>
+            <ul>
+                <li>These UNIX-based systems do not rely on file extensions to identify executables.</li>
+                <li>They use a file permission flag that marks a file as executable.</li>
+                <li>Formats include ELF (Executable and Linkable Format) for Linux and Mach-O for macOS.</li>
+            </ul>
+
+            <h5>Script Execution</h5>
+            <ul>
+                <li>Both systems use shell scripts to automate tasks.</li>
+                <li>These are text files containing UNIX commands.</li>
+                <li> On macOS, the Terminal app provides access to the shell, which is commonly Zsh or Bash.</li>
+                <li>On Linux, the Bash(Bourne-Again Shell) is a widely used default.</li>
+                <li>To be executed, a script file typically needs to be marked as executable using the chmod command.
+                </li>
+                <li>Shell scripts are often identified with a .sh extension</li>
+                <li>Begins with a "shebang" (#!) that specifies the interpreter to be used, such as #!/bin/bash.</li>
+            </ul>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2>ABOUT ME</h2>
+        <P>
+            I am a young woman who is passionate about everything I put my mind into.
+            I have a great teachable spirit. Always open to learn and advance my experience.
+            I am a dependable, hardworking, and committed individual. I am a team player.
+            In a nutshell, Ashley is a valuable asset and <i>loves blue</i>.
+        </P>
+
+        <div class="form">
+            <h4>Contact Me</h4>
+            <form action="https://formspree.io/f/mqabooqb" method="POST">
+                <label for="email">Email:</label>
+                <input type="text" name="email" placeholder="please enter your email here" required>
+
+                <label for="messge">Message:</label>
+                <textarea name="message" placeholder="Your message goes here..."></textarea>
+
+                <button type="submit" onclick="showMessage()">Send</button>
+            </form>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/Ashley-Blu" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://instagram.com/user_ashleym" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="https://www.linkedin.com/in/ashley-matsekoleng" target="_blank"><i
+                    class="fab fa-linkedin"></i>LinkedIn</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
