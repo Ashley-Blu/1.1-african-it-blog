@@ -56,7 +56,7 @@ body {
   margin-bottom: 40px;
 }
 
-.container .header h1 {
+ h1 {
   padding-top: 30px;
   font-size: 45px;
   color: #0a66c2;
@@ -125,7 +125,7 @@ button {
   background-color: #0a66c2;
   color: white;
   padding: 10px 20px;
-  border: none;
+  border: 2px solid white;
   border-radius: 5px;
   cursor: pointer;
   margin: 20px 0;
@@ -177,8 +177,62 @@ button a {
   .card {
     flex: 1;
   }
+}
 
-  .row {
-    width: 95%;
-  }
+.comparison-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    flex: 1 1 280px;
+    max-width: 350px;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: blue;
+}
+
+.card ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+.card ul li strong {
+    color: #6a3b3b;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width of the page*/
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Makes sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin/space */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* When moving the mouse over the submit button, lighter blue color */
+input[type=submit]:hover {
+  background-color: #4f9deb;
+}
+
+/* Adds a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
